@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .jumbotron {
+    @apply m-20;
+    @apply p-8;
+    @apply border-solid;
+    @apply rounded-r-md;
+    @apply border-black;
+  }
+}
+
+@layer utilities {
+  .clip-path {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+}
+
+.jumbotron {
+  margin: 5rem;
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 6px;
+}
